@@ -7085,6 +7085,7 @@ img.mfp-img {
   zoom: 1;
 }
 
+/*changed transition to give the user more time to read rules from .2s*/
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
@@ -7092,7 +7093,7 @@ img.mfp-img {
   background: #D6D6D6;
   display: block;
   -webkit-backface-visibility: visible;
-  transition: opacity .2s ease;
+  transition: opacity .8s ease;
   border-radius: 30px;
 }
 
