@@ -1351,82 +1351,6 @@ Pricing tables
       border-top-color: rgba(255, 255, 255, 0.1); }
 
 /*
-Clients & reviews
-*/
-.client-reviews-card {
-  text-align: center;
-  position: relative; }
-  .client-reviews-card:before {
-    content: "\e7e0";
-    font-family: 'Linearicons';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    margin-left: -30px;
-    margin-top: -30px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background-color: #fff;
-    font-size: 32px;
-    border: 1px solid #eee;
-    z-index: 2;
-    border-radius: 50%; }
-  .client-reviews-card .client-reviews-content {
-    position: relative;
-    background: #fff;
-    border: 1px solid #eee;
-    padding: 20px 20px;
-    padding-top: 40px;
-    text-align: center;
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 20px; }
-  .client-reviews-card .client-reviews-content:after, .client-reviews-card .client-reviews-content:before {
-    top: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none; }
-  .client-reviews-card .client-reviews-content:after {
-    border-color: rgba(136, 183, 213, 0);
-    border-top-color: #fff;
-    border-width: 10px;
-    margin-left: -10px; }
-  .client-reviews-card .client-reviews-content:before {
-    border-color: rgba(238, 238, 238, 0);
-    border-top-color: #eee;
-    border-width: 11px;
-    margin-left: -11px; }
-  .client-reviews-card .client-reviews-author {
-    display: inline-block; }
-    .client-reviews-card .client-reviews-author .img-fluid {
-      width: 60px;
-      margin: 0 auto;
-      margin-bottom: 15px; }
-    .client-reviews-card .client-reviews-author h5 {
-      text-transform: capitalize;
-      font-weight: 700;
-      letter-spacing: 0px;
-      margin-bottom: 0px;
-      font-size: 15px; }
-    .client-reviews-card .client-reviews-author span {
-      color: #1ecfca;
-      font-size: 12px;
-      font-style: italic;
-      opacity: 0.5; }
-
-.owl-carousel.owl-clients .item img {
-  display: block;
-  margin: 0 auto;
-  border: 2px solid rgba(30, 207, 202, 0.04); }
-
-/*
 Parallax backgrounds
 */
 .bg-parallax {
@@ -1452,22 +1376,6 @@ Parallax backgrounds
   opacity: 0.8;
   z-index: 0; }
 
-/*
-Tweeter feeds style
-*/
-.tweets-container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-  .tweets-container ul li {
-    padding-bottom: 10px;
-    color: rgba(70, 73, 92, 0.7);
-    font-size: 16px;
-    font-weight: 400; }
-    .tweets-container ul li a {
-      color: #46495c; }
-      .tweets-container ul li a:hover {
-        text-decoration: underline; }
 
 /*
 Owl carousel sliders style
